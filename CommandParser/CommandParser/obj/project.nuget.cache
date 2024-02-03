@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "lXA/KYwMXFGGHYvcShzScItKaKbL20NaTTJVtLmCyT3OlvO1RrE+xZ1j9MfnMBnazbHf7O1GfoMA0qbBpAmKcA==",
+  "success": true,
+  "projectFilePath": "D:\\labs3sem\\ConsoleCommand\\CommandParser\\CommandParser\\CommandParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nahid\\.nuget\\packages\\sourcekit\\1.1.24\\sourcekit.1.1.24.nupkg.sha512",
+    "C:\\Users\\nahid\\.nuget\\packages\\sourcekit.analyzers.mustbepartial\\1.1.24\\sourcekit.analyzers.mustbepartial.1.1.24.nupkg.sha512",
+    "C:\\Users\\nahid\\.nuget\\packages\\sourcekit.analyzers.mustbepartial.annotations\\1.1.24\\sourcekit.analyzers.mustbepartial.annotations.1.1.24.nupkg.sha512",
+    "C:\\Users\\nahid\\.nuget\\packages\\sourcekit.generators.builder\\1.1.24\\sourcekit.generators.builder.1.1.24.nupkg.sha512",
+    "C:\\Users\\nahid\\.nuget\\packages\\sourcekit.generators.builder.annotations\\1.1.24\\sourcekit.generators.builder.annotations.1.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

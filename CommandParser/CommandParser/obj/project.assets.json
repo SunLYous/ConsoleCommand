@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "SourceKit/1.1.24": {
+        "type": "package"
+      },
+      "SourceKit.Analyzers.MustBePartial/1.1.24": {
+        "type": "package",
+        "dependencies": {
+          "SourceKit": "1.1.24",
+          "SourceKit.Analyzers.MustBePartial.Annotations": "1.1.24"
+        }
+      },
+      "SourceKit.Analyzers.MustBePartial.Annotations/1.1.24": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll": {}
+        }
+      },
+      "SourceKit.Generators.Builder/1.1.24": {
+        "type": "package",
+        "dependencies": {
+          "SourceKit": "1.1.24",
+          "SourceKit.Generators.Builder.Annotations": "1.1.24"
+        }
+      },
+      "SourceKit.Generators.Builder.Annotations/1.1.24": {
+        "type": "package",
+        "dependencies": {
+          "SourceKit.Analyzers.MustBePartial": "1.1.24"
+        },
+        "compile": {
+          "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SourceKit/1.1.24": {
+      "sha512": "kRTF89oDu+MB0Cf1xPpnV+zT0zD8bfLVqex9NsyIbBQ87HfDnCuJz/g2GjQK8ixywCeHiNIaXKYtwZ4FIaHqpg==",
+      "type": "package",
+      "path": "sourcekit/1.1.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "analyzers/dotnet/cs/SourceKit.dll",
+        "sourcekit.1.1.24.nupkg.sha512",
+        "sourcekit.nuspec"
+      ]
+    },
+    "SourceKit.Analyzers.MustBePartial/1.1.24": {
+      "sha512": "j4gGATsXNx8XAwQ4hcIXO9FeriTEXRKhJiciafWtSVtA1dS1ZFu5FiG5b+uKdLgd4B+vHsx1YSEp1dUVNJSuKQ==",
+      "type": "package",
+      "path": "sourcekit.analyzers.mustbepartial/1.1.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "analyzers/dotnet/cs/SourceKit.Analyzers.MustBePartial.Annotations.dll",
+        "analyzers/dotnet/cs/SourceKit.Analyzers.MustBePartial.dll",
+        "sourcekit.analyzers.mustbepartial.1.1.24.nupkg.sha512",
+        "sourcekit.analyzers.mustbepartial.nuspec"
+      ]
+    },
+    "SourceKit.Analyzers.MustBePartial.Annotations/1.1.24": {
+      "sha512": "vpQyTTv5/T6hDU7srp6inLFUJY/gwP97Vh36VFiTYdjkXx5Zl19O04QA1tqobu3U3/A7GTCWWO+IjYaEhaujcg==",
+      "type": "package",
+      "path": "sourcekit.analyzers.mustbepartial.annotations/1.1.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll",
+        "sourcekit.analyzers.mustbepartial.annotations.1.1.24.nupkg.sha512",
+        "sourcekit.analyzers.mustbepartial.annotations.nuspec"
+      ]
+    },
+    "SourceKit.Generators.Builder/1.1.24": {
+      "sha512": "4ILxcpMCguMXmTuLUGITSWA5LLNrOny1A5C0kmHFcxPV2c5Gfy27I2dl7VL9e9FEILZ1d3LvfnqVkSMWki/PEw==",
+      "type": "package",
+      "path": "sourcekit.generators.builder/1.1.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "analyzers/dotnet/cs/FluentChaining.dll",
+        "analyzers/dotnet/cs/Humanizer.dll",
+        "analyzers/dotnet/cs/Humanizer.resources.dll",
+        "analyzers/dotnet/cs/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "analyzers/dotnet/cs/Microsoft.Extensions.DependencyInjection.dll",
+        "analyzers/dotnet/cs/SourceKit.Generators.Builder.dll",
+        "sourcekit.generators.builder.1.1.24.nupkg.sha512",
+        "sourcekit.generators.builder.nuspec"
+      ]
+    },
+    "SourceKit.Generators.Builder.Annotations/1.1.24": {
+      "sha512": "6lDZ1DizJD8kc6zru4E/ni6TNz07AlHQRnMX64Hl+iYQx3nlcNyJRBC1fYq42foPxR4p0+NOPrSUKtboRXwtww==",
+      "type": "package",
+      "path": "sourcekit.generators.builder.annotations/1.1.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll",
+        "sourcekit.generators.builder.annotations.1.1.24.nupkg.sha512",
+        "sourcekit.generators.builder.annotations.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "SourceKit.Generators.Builder >= 1.1.24",
+      "SourceKit.Generators.Builder.Annotations >= 1.1.24"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nahid\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\labs3sem\\ConsoleCommand\\CommandParser\\CommandParser\\CommandParser.csproj",
+      "projectName": "CommandParser",
+      "projectPath": "D:\\labs3sem\\ConsoleCommand\\CommandParser\\CommandParser\\CommandParser.csproj",
+      "packagesPath": "C:\\Users\\nahid\\.nuget\\packages\\",
+      "outputPath": "D:\\labs3sem\\ConsoleCommand\\CommandParser\\CommandParser\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "SourceKit.Generators.Builder": {
+            "target": "Package",
+            "version": "[1.1.24, )"
+          },
+          "SourceKit.Generators.Builder.Annotations": {
+            "target": "Package",
+            "version": "[1.1.24, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\nahid\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

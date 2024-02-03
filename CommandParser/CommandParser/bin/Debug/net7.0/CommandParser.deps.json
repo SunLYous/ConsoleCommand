@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CommandParser/1.0.0": {
+        "dependencies": {
+          "SourceKit.Generators.Builder": "1.1.24",
+          "SourceKit.Generators.Builder.Annotations": "1.1.24"
+        },
+        "runtime": {
+          "CommandParser.dll": {}
+        }
+      },
+      "SourceKit/1.1.24": {},
+      "SourceKit.Analyzers.MustBePartial/1.1.24": {
+        "dependencies": {
+          "SourceKit": "1.1.24",
+          "SourceKit.Analyzers.MustBePartial.Annotations": "1.1.24"
+        }
+      },
+      "SourceKit.Analyzers.MustBePartial.Annotations/1.1.24": {
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Analyzers.MustBePartial.Annotations.dll": {
+            "assemblyVersion": "1.1.24.0",
+            "fileVersion": "1.1.24.0"
+          }
+        }
+      },
+      "SourceKit.Generators.Builder/1.1.24": {
+        "dependencies": {
+          "SourceKit": "1.1.24",
+          "SourceKit.Generators.Builder.Annotations": "1.1.24"
+        }
+      },
+      "SourceKit.Generators.Builder.Annotations/1.1.24": {
+        "dependencies": {
+          "SourceKit.Analyzers.MustBePartial": "1.1.24"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SourceKit.Generators.Builder.Annotations.dll": {
+            "assemblyVersion": "1.1.24.0",
+            "fileVersion": "1.1.24.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommandParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SourceKit/1.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kRTF89oDu+MB0Cf1xPpnV+zT0zD8bfLVqex9NsyIbBQ87HfDnCuJz/g2GjQK8ixywCeHiNIaXKYtwZ4FIaHqpg==",
+      "path": "sourcekit/1.1.24",
+      "hashPath": "sourcekit.1.1.24.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.MustBePartial/1.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j4gGATsXNx8XAwQ4hcIXO9FeriTEXRKhJiciafWtSVtA1dS1ZFu5FiG5b+uKdLgd4B+vHsx1YSEp1dUVNJSuKQ==",
+      "path": "sourcekit.analyzers.mustbepartial/1.1.24",
+      "hashPath": "sourcekit.analyzers.mustbepartial.1.1.24.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.MustBePartial.Annotations/1.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vpQyTTv5/T6hDU7srp6inLFUJY/gwP97Vh36VFiTYdjkXx5Zl19O04QA1tqobu3U3/A7GTCWWO+IjYaEhaujcg==",
+      "path": "sourcekit.analyzers.mustbepartial.annotations/1.1.24",
+      "hashPath": "sourcekit.analyzers.mustbepartial.annotations.1.1.24.nupkg.sha512"
+    },
+    "SourceKit.Generators.Builder/1.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ILxcpMCguMXmTuLUGITSWA5LLNrOny1A5C0kmHFcxPV2c5Gfy27I2dl7VL9e9FEILZ1d3LvfnqVkSMWki/PEw==",
+      "path": "sourcekit.generators.builder/1.1.24",
+      "hashPath": "sourcekit.generators.builder.1.1.24.nupkg.sha512"
+    },
+    "SourceKit.Generators.Builder.Annotations/1.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6lDZ1DizJD8kc6zru4E/ni6TNz07AlHQRnMX64Hl+iYQx3nlcNyJRBC1fYq42foPxR4p0+NOPrSUKtboRXwtww==",
+      "path": "sourcekit.generators.builder.annotations/1.1.24",
+      "hashPath": "sourcekit.generators.builder.annotations.1.1.24.nupkg.sha512"
+    }
+  }
+}

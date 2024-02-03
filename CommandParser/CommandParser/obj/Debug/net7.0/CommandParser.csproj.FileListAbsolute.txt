@@ -1,0 +1,12 @@
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\bin\Debug\net7.0\CommandParser.deps.json
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\bin\Debug\net7.0\CommandParser.dll
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\bin\Debug\net7.0\CommandParser.pdb
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\CommandParser.csproj.AssemblyReference.cache
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\CommandParser.GeneratedMSBuildEditorConfig.editorconfig
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\CommandParser.AssemblyInfoInputs.cache
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\CommandParser.AssemblyInfo.cs
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\CommandParser.csproj.CoreCompileInputs.cache
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\CommandParser.dll
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\refint\CommandParser.dll
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\CommandParser.pdb
+D:\labs3sem\ConsoleCommand\CommandParser\CommandParser\obj\Debug\net7.0\ref\CommandParser.dll
